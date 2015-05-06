@@ -179,6 +179,7 @@
     <Compile Include="Models\Entity\Message.cs" />
     <Compile Include="Models\Entity\Status.cs" />
     <Compile Include="Models\Entity\User.cs" />
+    <Compile Include="Models\Entity\UserId.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
