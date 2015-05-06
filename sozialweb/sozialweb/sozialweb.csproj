@@ -159,13 +159,26 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\FriendController.cs" />
     <Compile Include="Controllers\GroupController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ImageController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MessageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Entity\Comment.cs" />
+    <Compile Include="Models\Entity\FriendRequest.cs" />
+    <Compile Include="Models\Entity\Group.cs" />
+    <Compile Include="Models\Entity\GroupComment.cs" />
+    <Compile Include="Models\Entity\GroupStatus.cs" />
+    <Compile Include="Models\Entity\Image.cs" />
+    <Compile Include="Models\Entity\ImageFile.cs" />
+    <Compile Include="Models\Entity\Message.cs" />
+    <Compile Include="Models\Entity\Status.cs" />
+    <Compile Include="Models\Entity\User.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -230,7 +243,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Friend\" />
     <Folder Include="Views\Group\" />
+    <Folder Include="Views\Image\" />
+    <Folder Include="Views\Message\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
